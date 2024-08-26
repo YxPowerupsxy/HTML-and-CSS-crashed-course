@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Lesson 3</title>
+</head>
+    <body>
+          
+        <h1> HTML Forms</h1>
+        <hr>  
+        <form>
+            <label for="username">enter username:</label>
+            <input type="text" id="username" placeholder="powerup123">
+            <br><br>
+            <label for="email">enter email:</label>
+            <input type="email" id="email" placeholder="@gmail.com">
+            <br><br>
+            <label for="password">enter password</label>
+            <input type="password" id="password" placeholder="******">
+        
+            <p> Select your age:</p>
+            <input type="radio" name="age" value="0-25" id="option-1">
+            <label for="option-1">0-25</label>
+            <br><br>
+            <input type="radio" name="age" value="26-50" id="option-2">
+            <label for="option-2">26-50</label>
+            <br><br>
+            <input type="radio" name="age" value="51+" id="option-3">
+            <label for="option-3">51+</label> 
+
+            <br><br>
+
+            <label for="questions">security questions</label>
+            <select name="questions" id="questions">
+                <option value="Q1"> what your favorite color?</option>
+                <option value="Q2">if you could be a anime what it could be?</option>
+                <option value="Q3">what is your favorite anime</option>
+            </select>
+
+            <br><br>
+            <input type="text" id="answer" name="answer">
+
+            <br><br>
+            <label for="bio">Your Bio:</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="enter your bio..."></textarea>
+
+            <input type="submit" value="submit the form">
+
+        </form>
+        
+
+    </body>
+</html>

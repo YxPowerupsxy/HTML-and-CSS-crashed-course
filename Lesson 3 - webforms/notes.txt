@@ -1,0 +1,82 @@
+INPUT FIELDS
+
+<form></form>
+    - Create an interactive form that allows users to sumbit data from server for processing.
+
+    
+<input type="text" id="name of id">
+
+<input type="text"
+    - when type attribute text the input will be a form of text.
+    - when the input is email the web will recognize that the input we want to collect is an email.
+    - when it is a password the web will hide the letters because it is a password
+    - name attribute
+
+id="name of the id">
+    - identify what the input is for
+
+<label for="name of id">name of the label</label>
+    - link the input field to the ID 
+    
+Radio Button
+    - it allow user to select one of the choices from a set.
+
+ <form action=""></form>
+    - it creates a interactive form for user input.
+    - the action attribute soecifies where to send the form data when form is submitted.
+    - action="" means form will be submitted to the same URL.
+
+<input type="radio" name=" " value=" " id=" ">
+    - type: Must be set to "radio".
+
+    - id: A unique identifier for the radio button, which links it to its label.
+
+    - name: All radio buttons that belong to the same group must share the same name attribute. This ensures that only one button in the group can be selected at a time.
+
+    - value: The value that will be submitted when the form is sent, representing the selected option.
+
+<label for="  "> label name </label>
+    - provide label for each input field.
+
+drop down button
+    - make a traditional dropdown list.
+
+<select></select>
+    - used to create a drowpdown list allows users to choose from a list.
+
+Key Attributes of select
+
+    - name: Specifies the name of the dropdown list, which is used to identify the selected value when the form is submitted.
+
+    - id: A unique identifier for the dropdown list, which can be used for styling or referencing with JavaScript.
+
+<option> display words </option>
+    ELEMENT
+        - value: Specifies the value that will be submitted when the form is sent, representing the selected option.
+
+        - selected: If added to an <option> element, it will be selected by default when the page loads.
+
+<textarea></textarea>
+    - allows user to enter some text over multiple lines.
+
+Key Attributes of textarea
+    - name: Specifies the name of the text area, which is used to identify the input when the form is submitted.
+    
+    - rows: Defines the number of visible text lines in the text area.
+
+    - cols: Specifies the width of the text area in terms of the number of characters.
+
+    - placeholder: Provides a hint or example text that disappears when the user starts typing.
+
+    - readonly: Makes the text area read-only, preventing user input.
+
+    - disabled: Disables the text area, making it non-interactive.
+ 
+    - wrap: Specifies how the text should wrap within the text area. Possible values are "hard" (wrap at the specified column) or "soft" (wrap at word boundaries).
+
+input type attribute sumbit
+    - used to create a submit button in HTML forms
+    - when the submit button is click the answer also display on the search bar.
+
+required attribute
+    - used to specify that an input field must be filled out before the form can be submitted

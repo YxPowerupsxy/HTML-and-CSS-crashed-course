@@ -1,0 +1,119 @@
+HTML is HyperText Markup Languange.
+    - used to structure a content on web.
+    - used HTML tags to structure content.
+
+
+CSS is Cascading Style Sheets.
+    - work with HTML
+    - used to style web pages to make them better.
+    - changes colours, position, effects etc.
+
+
+<!DOCTYPE>
+    - document type declaration.
+    - ensuring the page  is rendered according to W3C web standards.
+
+
+<html></html>
+    - Serves as the beginning and the end of an HTML document.
+
+
+<head></head>
+    - this meta data is crucial for browser and search engines but not visible in viewing the page.
+
+
+<body></body>
+    - this tag wraps all the content that users  view.
+
+<strong></strong>
+    - this makes something bold.
+
+<p></p>
+    - paragraph.
+
+<em></em>
+    - italizie the word.
+
+<small></small>
+    - makes word smaller.
+
+Heading tag
+    - <h1></h1> ...to... <h6></h6>.
+    - h1 is the biggest or for the browser the most important heading.
+    - h6 the smallest or for the browser the least important heading.
+
+<ul></ul>
+    - unordered list uses bullet form to present the list.
+    - uses <li> to insert a word </li> 
+        EX. 
+            <li> Luffy </li>
+            <li> Zoro </li>
+
+<ol></ol>
+    - ordered list uses numbering to present the list.
+    - uses also <li> to insert a word </li>
+        EX.
+            <li> luffy </li>
+            <li> zoro </li>
+
+
+<div></div>
+    - division of code but not visible on browser
+    
+<span></span>
+    - span tag is like paragraph but not behave the same.
+
+<br> or <br/>
+    - cause a line break the next word after it starts in the next line.
+
+<hr> or <hr/>
+    - horizontal rule. 
+    - create a horizontal line.
+
+<img>
+    - show a image in the web.
+    EX. 
+        <img src="image.png">
+
+    - if the image is in the folder.
+    EX.
+        <img src="folder/image.png">
+
+<alt>
+    - describe the image or text representation of the image.
+    - not showing in web its just for accessibility.
+
+
+<a href = "link.com">text represent the link</a>
+    - hyperlink reference.
+
+<blockquote cite="website link"></blockquote>
+    - quote something in another website.
+    - indent the quotes farther from left to right.
+
+<p style="type of style: characteristics of style; "> words </p>
+    - paragraph with style.
+
+<!-- comment -->
+    - not part of code but a comment to the code.
+
+Overview
+HTML tags
+    -<ul></ul>
+    -<ol></ol>
+    -<p></p>
+    <li></li>
+    <img>
+    <a></a>
+    -<span></span>
+    -etc.
+
+Attributes
+    -src
+    -href
+    -style
+    -alt
+    -cite
+    -etc.
+
+

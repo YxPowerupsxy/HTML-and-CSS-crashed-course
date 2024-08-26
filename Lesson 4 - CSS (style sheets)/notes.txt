@@ -1,0 +1,102 @@
+CSS (style sheets)
+    - a list of css rules/ rule sets
+
+
+    property: value;
+
+color:
+    - effectively add colors to your HTML elements and create visually appealing web pages.
+
+background-color:
+    - allows to specify the background color of an element
+
+font-size:
+    - used to specify the size of the font for text
+    - px: refers to pixels can be apply to font sizes, width, heights and other dimensions.
+
+text-decoration:
+    - used to specify the decoration added to text.
+    - default value none.
+
+ATTRIBUTES
+    - line-through: draw a line in the middle of the text.
+    - underline: draw a line under the text.
+    - overline: draw a line over the text.
+
+font-family:
+    - change the font of the text.
+
+text-align:
+    -  used to control the horizontal alignment of text within a block-level element.
+
+text-height:
+    - used to declare height of the text.
+
+letter-spacing:
+    - used to control the spacing between characters in a text element
+
+column-count:
+    - used to specify the number of columns an element should be divided into.
+
+column-gap:
+    - used to specify the space (or "gutters") between columns in multi-column layouts.
+
+border-width:
+    - specifies the width of the border around an element's content, padding, and margin areas.
+
+border-style:
+    - used to define the style of an element's border. 
+
+border-color:
+    - used to set the color of an element's border.
+
+border value can be in one line of code.
+    - border: size type color;
+
+border value can be also be defined by each side.
+EX. border-bottom: 4px dotted crimson;
+
+list-style-type:
+    - used to specify the type of marker to be used for list items.
+
+text-shadow:
+    -  used to add shadow effects to text, enhancing its visual appeal and depth.
+
+Colours/ HEX codes.
+    - RGB
+    - R: 42
+    - G: f4
+    - B: f1
+    - Darkest - zero
+    - Lightest - f
+
+EX. text-shadow: 2px 2px #f400f4;
+
+Inline Elements
+    - dont take up any more room than their content needs.
+    - span, img, strong, em, a, and more.
+
+Block-level elements
+    - take up a whole width of a page regardless of content.
+    - p, div, blockquote, h1, h2, ul, li, ol, and more.
+
+NOTE: 
+    - if you want to insert inline element in the middle of the block level element you need to insert a closing tag.
+
+display: block;
+    - inline element display as block element. 
+display: inline
+    - block element display as inline element.
+
+padding
+    - the space between an element's content and its border.
+margin
+    - the space between an element's border and the surrounding elements.
+
+NOTE:
+    - margin collapse in inline element in vertical orientation,
+    - margin in block element squashed the margin 
+    for example both block element is 20px margin and the output margin will be 20px only instead of 40px.
+
+default browser style
+    - the space between an element's border and the surrounding elements.
