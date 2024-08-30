@@ -1,0 +1,10 @@
+Responsive Design
+    
+Media Queries
+    - Tell the browser to style an element at particular viewport dimensions
+
+Viewport meta tag
+    - Tell the browset what width the viewport should be.
+
+Responsive images
+    - Only rhe load smaller images for mobile devies.

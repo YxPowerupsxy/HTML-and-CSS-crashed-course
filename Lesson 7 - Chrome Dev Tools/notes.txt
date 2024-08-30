@@ -1,0 +1,49 @@
+Chrome Development Tools
+    - Press f12 then click open devTools.
+    - You are automatically in the Elements tab.
+
+Console tab
+    - The Console tab serves as a JavaScript console, allowing developers to execute JavaScript code snippets and view their output.
+    
+    - In the console tab you can make rules in the css of the selector.
+
+Edit as HTML on devTools
+    - right click then select edit as HTML. 
+    - then add some features to see what will happen.
+
+Scroll to view
+    -If you want to see where the line of code exist in our webpage.
+    - right click then select scroll to view.
+
+Hide Element
+    - if you want to temporarily hide something.
+    - select a element then right click and click hide element.
+    - right click and unchecked the hide element to see that again.
+
+Delete Element
+    - if you want to delete element permanently.
+    - choose an element right click then select delete element.
+
+Edit Attributes.
+    - if you want to edit the webpage or add some element.
+
+Style tab
+    - you can see what is the css element
+    - also you can check or uncheck the css element to see what will happen.
+
+Sources tab
+    - A tree of different files or folders that make up our project.
+
+NOTE: 
+    - we can edit the webpage live or real time.
+    - but if we referesh the page you will lose all the file.
+
+NOTE: 
+    - if you want to edit the code in the Chrome DevTools 
+
+SAVING file on devTools
+    - go to file system.
+    - click add folder to the workplace.
+    - choose the code folder
+    - then allow.
+

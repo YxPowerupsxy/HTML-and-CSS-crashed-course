@@ -1,0 +1,8 @@
+Pseudo Classes
+    - Style elements when theyre in a particular state.
+    
+    -hover,focus,first child of a parent.
+
+Pseudo elements
+    - one colon(:) if its first child elements
+    - double colon (:) if its specific elements

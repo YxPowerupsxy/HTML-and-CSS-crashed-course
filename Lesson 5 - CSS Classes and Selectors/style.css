@@ -1,0 +1,68 @@
+/* p.error
+{
+    color: red;
+}
+p.success
+{
+    color: #91db91
+}
+p.success.feedback
+{
+    border:1px dashed #1d1b13;
+}
+#content
+{
+    background-color: #7e7e7d;
+    padding: 40px;
+
+} */
+
+/*
+div p
+{
+    color: aqua
+    ;
+}
+*/
+
+/*
+a[href*="china-philippines"]
+
+{
+     background-color: #345a34;
+     color: #612d2d;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+
+} */
+
+/*
+a[href*="google"]
+{
+    color: red;
+    background-color: black;
+    border: 30px solid blue;
+
+}
+
+a[href$=".com"]
+{
+    background-color: grey;
+}
+    */
+
+div
+{
+    color: lightblue;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+p
+{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}

@@ -1,0 +1,15 @@
+HTML5 Semantic Tags
+ Structural Tags
+    - <header> Defines a header for a document or section.
+
+    - <nav> Defines a set of navigation links.
+
+    - <main> Defines the main content of a document.
+
+    - <article> Defines an independent piece of content, such as a blog post or news article.
+
+    - <section> Defines a section in a document.
+
+    - <aside> Defines content aside from the main content, such as a sidebar.
+
+    -<footer> Defines a footer for a document or section.

@@ -1,0 +1,72 @@
+Class Attribute
+    - use as hook or selector to modify the element. 
+    - always start with a dot or a period when we are looking for a class.
+    - change all the element that have the same name of class.
+
+String of Class
+
+    - <element class=" class1 class2 class3">Content</element>
+
+    - contain one or more class names separated by spaces. This allows for the application of multiple CSS styles to an element.
+
+#ElementID
+
+    - the hash symbol is primarily used as a selector for targeting element by their unique ID attributes.
+
+    - The ID selector is used to select a single HTML element with a specific id attribute. 
+    
+    - Each ID should be unique within a page, meaning it can only be applied to one element.
+
+padding:
+    -  used to create space between an element's content and its border. It is an essential part of the CSS box model.
+
+parent element
+    - used to create space between an element's content and its border. It is an essential part of the CSS box model
+
+EX. <div descendant element> </div>
+
+to modify the descendant element only you will need a space before calling the class.
+
+EX, div .class
+
+NOTE: SPACE is important to point out only the descenmtant element of div is callng.
+
+    - attribute can be used as selector.
+
+Anchor tag 
+    - create hyperlinks that allow users to navigate from one page to another.
+
+Attribute as an selector
+EX. 
+    a[href="https://www.msn.com/en-ph/news/national/china-philippines-clash-in-south-china-sea-despite-efforts-to-rebuild-trust/ar-AA1ppSoq?ocid=msedgntp&pc=U531&cvid=628aad7c73044b5590dfc73d58b111e7&ei=6"]
+
+    - its select the href link to design in external CSS
+    - the equal(=) sign means it look for the actual value of the linl
+
+Shortened the href link by using a asterisk(*) before the the equal sign.
+EX.
+    a{href="china-philippines"}
+
+    - it select the href link with the china-philippines text.
+
+if you want to select a attribute that comes with the same last value use a dollarsign ($).
+EX.
+    - a[href$=".com"]
+
+The Cascade
+    -HTML elements can inheret CSS properties that are applied to their parents.
+
+Margin:
+    - make a margin to left and right depends on the value.
+
+    =the parent element apply all the changes in the sons element.
+EX. div {
+    color value
+    etc.
+}
+NOTE:
+    - and when you change element on the son element it will changes without any resistance.
+    - when you want to inherit the attributes in the parent element just put inherit. EX. color: inherit;
+    -
+
+

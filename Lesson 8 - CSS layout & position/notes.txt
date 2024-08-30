@@ -1,0 +1,27 @@
+CSS Layout and Positioning
+
+CSS Positioning.
+
+    - static (default): Elements are positioned according to normal document flow.
+
+    - relative: Positions an element relative to its normal position, allowing top, right, bottom, left to create an offset.
+    
+    - fixed: Positions an element relative to the viewport, so it always stays in the same place even if the page is scrolled.
+
+    - absolute: Positions an element relative to its nearest positioned ancestor (or the document body if no ancestor is positioned).
+
+    - sticky: Toggles between relative and fixed based on the element's position in the viewport.
+
+cm
+    - 
+
+z-index
+    -
+
+white-space
+    -
+
+max-width
+    -
+
+box sizing
